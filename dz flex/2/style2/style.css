@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	height: 2000px;
+	font-family: system-ui;
+}
+
+main {
+	position: fixed;
+	background-color: #000;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+div {
+	padding: 2%;
+	transform: background-color ease;
+}
+
+div:hover {
+	background-color: dimgray;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
